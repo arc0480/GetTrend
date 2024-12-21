@@ -4,7 +4,7 @@ from datetime import datetime
 import time
 
 # YahooニュースのAPIまたはスクレイピング設定（ここでは仮のエンドポイントを使用）
-API_ENDPOINT = "https://example.com/yahoo_news/trends"
+API_ENDPOINT = "https://news.yahoo.co.jp/topics/top-picks"
 OUTPUT_CSV = "yahoo_news_trends.csv"
 
 def fetch_trending_news():
